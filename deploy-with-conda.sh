@@ -9,7 +9,7 @@
 #SBATCH --output=logs/job_%j.out  # File to which STDOUT will be written
 #SBATCH --error=logs/job_%j.err   # File to which STDERR will be written
 #SBATCH --mail-type=FAIL           # Type of email notification- BEGIN,END,FAIL,ALL
-#SBATCH --isabel.kurth@t-online.de  # Email to which notifications will be sent
+#SBATCH --mail-user=<isabel.kurth@t-online.de>  # Email to which notifications will be sent
 
 # print info about current job
 echo "---------- JOB INFOS ------------"
