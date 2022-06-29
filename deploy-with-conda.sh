@@ -24,7 +24,7 @@ conda activate myenv
 
 # Run our code
 echo "-------- PYTHON OUTPUT ----------"
-python3 hello.py --timer_repetitions 10000 --use-gpu
+python3 $file --timer_repetitions 10000 --use-gpu
 echo "---------------------------------"
 
 # Deactivate environment again
